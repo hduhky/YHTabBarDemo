@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CA7284B1BF827BF00E67A74 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA7284A1BF827BF00E67A74 /* main.m */; };
+		0CA7284E1BF827BF00E67A74 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA7284D1BF827BF00E67A74 /* AppDelegate.m */; };
+		0CA728561BF827BF00E67A74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CA728551BF827BF00E67A74 /* Assets.xcassets */; };
+		0CA728641BF827BF00E67A74 /* YHTabBarControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA728631BF827BF00E67A74 /* YHTabBarControllerTests.m */; };
+		0CA7286F1BF827BF00E67A74 /* YHTabBarControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA7286E1BF827BF00E67A74 /* YHTabBarControllerUITests.m */; };
+		0CA7288A1BF8329E00E67A74 /* YHBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA728891BF8329E00E67A74 /* YHBaseViewController.m */; };
+		0CA7288E1BF832D600E67A74 /* YHHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA7288C1BF832D600E67A74 /* YHHomeViewController.m */; };
+		0CA7288F1BF832D600E67A74 /* YHHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CA7288D1BF832D600E67A74 /* YHHomeViewController.xib */; };
+		0CA728931BF832E400E67A74 /* YHMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA728911BF832E400E67A74 /* YHMessageViewController.m */; };
+		0CA728941BF832E400E67A74 /* YHMessageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CA728921BF832E400E67A74 /* YHMessageViewController.xib */; };
+		0CA728981BF832F100E67A74 /* YHMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA728961BF832F100E67A74 /* YHMineViewController.m */; };
+		0CA728991BF832F100E67A74 /* YHMineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CA728971BF832F100E67A74 /* YHMineViewController.xib */; };
+		0CA7289D1BF8330900E67A74 /* YHSameCityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA7289B1BF8330900E67A74 /* YHSameCityViewController.m */; };
+		0CA7289E1BF8330900E67A74 /* YHSameCityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CA7289C1BF8330900E67A74 /* YHSameCityViewController.xib */; };
+		0CA728A11BF843E400E67A74 /* YHTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA728A01BF843E400E67A74 /* YHTabBar.m */; };
+		0CA728A41BF843F800E67A74 /* YHTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA728A31BF843F800E67A74 /* YHTabBarItem.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0CA728601BF827BF00E67A74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0CA7283E1BF827BF00E67A74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CA728451BF827BF00E67A74;
+			remoteInfo = YHTabBarController;
+		};
+		0CA7286B1BF827BF00E67A74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0CA7283E1BF827BF00E67A74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CA728451BF827BF00E67A74;
+			remoteInfo = YHTabBarController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CA728461BF827BF00E67A74 /* YHTabBarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YHTabBarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CA7284A1BF827BF00E67A74 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0CA7284C1BF827BF00E67A74 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0CA7284D1BF827BF00E67A74 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0CA728551BF827BF00E67A74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0CA7285A1BF827BF00E67A74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CA7285F1BF827BF00E67A74 /* YHTabBarControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YHTabBarControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CA728631BF827BF00E67A74 /* YHTabBarControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHTabBarControllerTests.m; sourceTree = "<group>"; };
+		0CA728651BF827BF00E67A74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CA7286A1BF827BF00E67A74 /* YHTabBarControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YHTabBarControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CA7286E1BF827BF00E67A74 /* YHTabBarControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHTabBarControllerUITests.m; sourceTree = "<group>"; };
+		0CA728701BF827BF00E67A74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CA7287C1BF82FAA00E67A74 /* YHTabBarDemo.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHTabBarDemo.pch; sourceTree = "<group>"; };
+		0CA728881BF8329E00E67A74 /* YHBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHBaseViewController.h; sourceTree = "<group>"; };
+		0CA728891BF8329E00E67A74 /* YHBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHBaseViewController.m; sourceTree = "<group>"; };
+		0CA7288B1BF832D600E67A74 /* YHHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHHomeViewController.h; sourceTree = "<group>"; };
+		0CA7288C1BF832D600E67A74 /* YHHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHHomeViewController.m; sourceTree = "<group>"; };
+		0CA7288D1BF832D600E67A74 /* YHHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YHHomeViewController.xib; sourceTree = "<group>"; };
+		0CA728901BF832E400E67A74 /* YHMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHMessageViewController.h; sourceTree = "<group>"; };
+		0CA728911BF832E400E67A74 /* YHMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHMessageViewController.m; sourceTree = "<group>"; };
+		0CA728921BF832E400E67A74 /* YHMessageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YHMessageViewController.xib; sourceTree = "<group>"; };
+		0CA728951BF832F100E67A74 /* YHMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHMineViewController.h; sourceTree = "<group>"; };
+		0CA728961BF832F100E67A74 /* YHMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHMineViewController.m; sourceTree = "<group>"; };
+		0CA728971BF832F100E67A74 /* YHMineViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YHMineViewController.xib; sourceTree = "<group>"; };
+		0CA7289A1BF8330900E67A74 /* YHSameCityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHSameCityViewController.h; sourceTree = "<group>"; };
+		0CA7289B1BF8330900E67A74 /* YHSameCityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHSameCityViewController.m; sourceTree = "<group>"; };
+		0CA7289C1BF8330900E67A74 /* YHSameCityViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YHSameCityViewController.xib; sourceTree = "<group>"; };
+		0CA7289F1BF843E400E67A74 /* YHTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHTabBar.h; sourceTree = "<group>"; };
+		0CA728A01BF843E400E67A74 /* YHTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHTabBar.m; sourceTree = "<group>"; };
+		0CA728A21BF843F800E67A74 /* YHTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHTabBarItem.h; sourceTree = "<group>"; };
+		0CA728A31BF843F800E67A74 /* YHTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHTabBarItem.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0CA728431BF827BF00E67A74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CA7285C1BF827BF00E67A74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CA728671BF827BF00E67A74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CA7283D1BF827BF00E67A74 = {
+			isa = PBXGroup;
+			children = (
+				0CA728481BF827BF00E67A74 /* YHTabBarController */,
+				0CA728621BF827BF00E67A74 /* YHTabBarControllerTests */,
+				0CA7286D1BF827BF00E67A74 /* YHTabBarControllerUITests */,
+				0CA728471BF827BF00E67A74 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0CA728471BF827BF00E67A74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0CA728461BF827BF00E67A74 /* YHTabBarController.app */,
+				0CA7285F1BF827BF00E67A74 /* YHTabBarControllerTests.xctest */,
+				0CA7286A1BF827BF00E67A74 /* YHTabBarControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0CA728481BF827BF00E67A74 /* YHTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				0CA7287F1BF8327400E67A74 /* CustomView */,
+				0CA728811BF8327400E67A74 /* ViewController */,
+				0CA7284C1BF827BF00E67A74 /* AppDelegate.h */,
+				0CA7284D1BF827BF00E67A74 /* AppDelegate.m */,
+				0CA728551BF827BF00E67A74 /* Assets.xcassets */,
+				0CA7285A1BF827BF00E67A74 /* Info.plist */,
+				0CA728491BF827BF00E67A74 /* Supporting Files */,
+			);
+			path = YHTabBarController;
+			sourceTree = "<group>";
+		};
+		0CA728491BF827BF00E67A74 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0CA7284A1BF827BF00E67A74 /* main.m */,
+				0CA7287C1BF82FAA00E67A74 /* YHTabBarDemo.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0CA728621BF827BF00E67A74 /* YHTabBarControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				0CA728631BF827BF00E67A74 /* YHTabBarControllerTests.m */,
+				0CA728651BF827BF00E67A74 /* Info.plist */,
+			);
+			path = YHTabBarControllerTests;
+			sourceTree = "<group>";
+		};
+		0CA7286D1BF827BF00E67A74 /* YHTabBarControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0CA7286E1BF827BF00E67A74 /* YHTabBarControllerUITests.m */,
+				0CA728701BF827BF00E67A74 /* Info.plist */,
+			);
+			path = YHTabBarControllerUITests;
+			sourceTree = "<group>";
+		};
+		0CA7287F1BF8327400E67A74 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				0CA728801BF8327400E67A74 /* YHTabBar */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		0CA728801BF8327400E67A74 /* YHTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				0CA7289F1BF843E400E67A74 /* YHTabBar.h */,
+				0CA728A01BF843E400E67A74 /* YHTabBar.m */,
+				0CA728A21BF843F800E67A74 /* YHTabBarItem.h */,
+				0CA728A31BF843F800E67A74 /* YHTabBarItem.m */,
+			);
+			path = YHTabBar;
+			sourceTree = "<group>";
+		};
+		0CA728811BF8327400E67A74 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0CA728821BF8327400E67A74 /* Base */,
+				0CA728831BF8327400E67A74 /* Home */,
+				0CA728841BF8327400E67A74 /* Message */,
+				0CA728851BF8327400E67A74 /* Mine */,
+				0CA728861BF8327400E67A74 /* Publish */,
+				0CA728871BF8327400E67A74 /* SameCity */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		0CA728821BF8327400E67A74 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				0CA728881BF8329E00E67A74 /* YHBaseViewController.h */,
+				0CA728891BF8329E00E67A74 /* YHBaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		0CA728831BF8327400E67A74 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				0CA7288B1BF832D600E67A74 /* YHHomeViewController.h */,
+				0CA7288C1BF832D600E67A74 /* YHHomeViewController.m */,
+				0CA7288D1BF832D600E67A74 /* YHHomeViewController.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		0CA728841BF8327400E67A74 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				0CA728901BF832E400E67A74 /* YHMessageViewController.h */,
+				0CA728911BF832E400E67A74 /* YHMessageViewController.m */,
+				0CA728921BF832E400E67A74 /* YHMessageViewController.xib */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		0CA728851BF8327400E67A74 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				0CA728951BF832F100E67A74 /* YHMineViewController.h */,
+				0CA728961BF832F100E67A74 /* YHMineViewController.m */,
+				0CA728971BF832F100E67A74 /* YHMineViewController.xib */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		0CA728861BF8327400E67A74 /* Publish */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Publish;
+			sourceTree = "<group>";
+		};
+		0CA728871BF8327400E67A74 /* SameCity */ = {
+			isa = PBXGroup;
+			children = (
+				0CA7289A1BF8330900E67A74 /* YHSameCityViewController.h */,
+				0CA7289B1BF8330900E67A74 /* YHSameCityViewController.m */,
+				0CA7289C1BF8330900E67A74 /* YHSameCityViewController.xib */,
+			);
+			path = SameCity;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0CA728451BF827BF00E67A74 /* YHTabBarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CA728731BF827BF00E67A74 /* Build configuration list for PBXNativeTarget "YHTabBarController" */;
+			buildPhases = (
+				0CA728421BF827BF00E67A74 /* Sources */,
+				0CA728431BF827BF00E67A74 /* Frameworks */,
+				0CA728441BF827BF00E67A74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YHTabBarController;
+			productName = YHTabBarController;
+			productReference = 0CA728461BF827BF00E67A74 /* YHTabBarController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0CA7285E1BF827BF00E67A74 /* YHTabBarControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CA728761BF827BF00E67A74 /* Build configuration list for PBXNativeTarget "YHTabBarControllerTests" */;
+			buildPhases = (
+				0CA7285B1BF827BF00E67A74 /* Sources */,
+				0CA7285C1BF827BF00E67A74 /* Frameworks */,
+				0CA7285D1BF827BF00E67A74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0CA728611BF827BF00E67A74 /* PBXTargetDependency */,
+			);
+			name = YHTabBarControllerTests;
+			productName = YHTabBarControllerTests;
+			productReference = 0CA7285F1BF827BF00E67A74 /* YHTabBarControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0CA728691BF827BF00E67A74 /* YHTabBarControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CA728791BF827BF00E67A74 /* Build configuration list for PBXNativeTarget "YHTabBarControllerUITests" */;
+			buildPhases = (
+				0CA728661BF827BF00E67A74 /* Sources */,
+				0CA728671BF827BF00E67A74 /* Frameworks */,
+				0CA728681BF827BF00E67A74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0CA7286C1BF827BF00E67A74 /* PBXTargetDependency */,
+			);
+			name = YHTabBarControllerUITests;
+			productName = YHTabBarControllerUITests;
+			productReference = 0CA7286A1BF827BF00E67A74 /* YHTabBarControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0CA7283E1BF827BF00E67A74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "黄珂耀";
+				TargetAttributes = {
+					0CA728451BF827BF00E67A74 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = N9HHE36XQ8;
+					};
+					0CA7285E1BF827BF00E67A74 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = N9HHE36XQ8;
+						TestTargetID = 0CA728451BF827BF00E67A74;
+					};
+					0CA728691BF827BF00E67A74 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = N9HHE36XQ8;
+						TestTargetID = 0CA728451BF827BF00E67A74;
+					};
+				};
+			};
+			buildConfigurationList = 0CA728411BF827BF00E67A74 /* Build configuration list for PBXProject "YHTabBarController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0CA7283D1BF827BF00E67A74;
+			productRefGroup = 0CA728471BF827BF00E67A74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0CA728451BF827BF00E67A74 /* YHTabBarController */,
+				0CA7285E1BF827BF00E67A74 /* YHTabBarControllerTests */,
+				0CA728691BF827BF00E67A74 /* YHTabBarControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0CA728441BF827BF00E67A74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CA728941BF832E400E67A74 /* YHMessageViewController.xib in Resources */,
+				0CA7288F1BF832D600E67A74 /* YHHomeViewController.xib in Resources */,
+				0CA728991BF832F100E67A74 /* YHMineViewController.xib in Resources */,
+				0CA728561BF827BF00E67A74 /* Assets.xcassets in Resources */,
+				0CA7289E1BF8330900E67A74 /* YHSameCityViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CA7285D1BF827BF00E67A74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CA728681BF827BF00E67A74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CA728421BF827BF00E67A74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CA728981BF832F100E67A74 /* YHMineViewController.m in Sources */,
+				0CA7284E1BF827BF00E67A74 /* AppDelegate.m in Sources */,
+				0CA728A11BF843E400E67A74 /* YHTabBar.m in Sources */,
+				0CA7288A1BF8329E00E67A74 /* YHBaseViewController.m in Sources */,
+				0CA7289D1BF8330900E67A74 /* YHSameCityViewController.m in Sources */,
+				0CA728931BF832E400E67A74 /* YHMessageViewController.m in Sources */,
+				0CA7288E1BF832D600E67A74 /* YHHomeViewController.m in Sources */,
+				0CA728A41BF843F800E67A74 /* YHTabBarItem.m in Sources */,
+				0CA7284B1BF827BF00E67A74 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CA7285B1BF827BF00E67A74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CA728641BF827BF00E67A74 /* YHTabBarControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CA728661BF827BF00E67A74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CA7286F1BF827BF00E67A74 /* YHTabBarControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0CA728611BF827BF00E67A74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CA728451BF827BF00E67A74 /* YHTabBarController */;
+			targetProxy = 0CA728601BF827BF00E67A74 /* PBXContainerItemProxy */;
+		};
+		0CA7286C1BF827BF00E67A74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CA728451BF827BF00E67A74 /* YHTabBarController */;
+			targetProxy = 0CA7286B1BF827BF00E67A74 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0CA728711BF827BF00E67A74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0CA728721BF827BF00E67A74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0CA728741BF827BF00E67A74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/YHTabBarController/YHTabBarDemo.pch";
+				INFOPLIST_FILE = YHTabBarController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hduhky.YHTabbarController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0CA728751BF827BF00E67A74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/YHTabBarController/YHTabBarDemo.pch";
+				INFOPLIST_FILE = YHTabBarController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hduhky.YHTabbarController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0CA728771BF827BF00E67A74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YHTabBarControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.YHTabBarControllerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YHTabBarController.app/YHTabBarController";
+			};
+			name = Debug;
+		};
+		0CA728781BF827BF00E67A74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YHTabBarControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.YHTabBarControllerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YHTabBarController.app/YHTabBarController";
+			};
+			name = Release;
+		};
+		0CA7287A1BF827BF00E67A74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YHTabBarControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.YHTabBarControllerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YHTabBarController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		0CA7287B1BF827BF00E67A74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YHTabBarControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.YHTabBarControllerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YHTabBarController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0CA728411BF827BF00E67A74 /* Build configuration list for PBXProject "YHTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CA728711BF827BF00E67A74 /* Debug */,
+				0CA728721BF827BF00E67A74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CA728731BF827BF00E67A74 /* Build configuration list for PBXNativeTarget "YHTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CA728741BF827BF00E67A74 /* Debug */,
+				0CA728751BF827BF00E67A74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0CA728761BF827BF00E67A74 /* Build configuration list for PBXNativeTarget "YHTabBarControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CA728771BF827BF00E67A74 /* Debug */,
+				0CA728781BF827BF00E67A74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0CA728791BF827BF00E67A74 /* Build configuration list for PBXNativeTarget "YHTabBarControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CA7287A1BF827BF00E67A74 /* Debug */,
+				0CA7287B1BF827BF00E67A74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0CA7283E1BF827BF00E67A74 /* Project object */;
+}
